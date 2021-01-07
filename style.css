@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(209, 228, 253);
+}
+h1, h2, h3, p, a{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.main-wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+.wrap{
+    display: block;
+    clear: both;
+}
+
+/* about menu*/
+
+.nav{
+    float: right;
+    margin-bottom: 20px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: rgb(83, 81, 81);
+    font-weight: bold;
+}
+.nav ul li a:hover{
+    color: rgb(4, 4, 12);
+    font-size: 26px;
+}
+
+/* content section*/
+.left-side{
+    width: 45%;
+    float: left;
+    margin-top:px;
+    margin-right: 90px;
+    color: rgb(14, 11, 11);
+    margin-top: 65px;
+}
+.left-side h1{
+    font-size: 50px;
+
+}
+.left-side .name-heading{
+    color: orange;
+}
+.left-side img{
+    width: 450px;
+    height: 570px;    
+}
+.left-side span{
+    color: orange;    
+}
+.right-side{
+    width: 45%;
+    float: left;
+}
+.right-side img{
+    width: 450px;
+    height: 570px;
+}
+.right-side h1{
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 135px;
+    text-align: center;
+}
+.right-side p{
+    color:black;
+    font-size: 18px;
+    text-align: justify;
+}
+.btn-link{
+    text-decoration: none;
+    background: rgb(197, 123, 39);
+    color: rgb(247, 245, 242);
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.btn-link:hover{
+    background-color: rgb(11, 14, 12);
+    color:rgb(208, 255, 0);
+}
+.dwnld-icon{
+ position: absolute;
+}
+.dwnld-icon img{
+    width: 16px;
+    height: 18px;
+    margin-left: 8px;
+}
+
+/* project section*/
+.work{
+    width: 30%;
+    float: left;
+    margin-left: 2.33%;
+    color: rgb(41, 36, 36);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 14px rgb(66, 58, 58);
+    display: block;
+    border-radius: 10px;
+}
+
+
+.work-wrap{
+    background-color: rgb(227, 239, 255);
+    display: block;
+    overflow: hidden;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.work-wrap h1{
+    color: rgb(29, 26, 26);
+    font-size: 50px;
+    text-align: center;
+}
+.work img{
+    width: 295px;
+    height: 202px;
+
+}
+.work p, h2{
+    padding:0 10px;
+    margin: 7px 0;
+}
+.lastet{
+    color: orange;
+}
+
+
+
+/* skills section*/
+
+.skills{
+    color: orange;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.skill-part{
+    width: 30%;
+    float: left;
+    margin-left: 3.33%; 
+    color: rgb(7, 6, 6);
+    text-align: center;
+}
+.skill-part img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid black;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+
+/* footer section*/
+.footer{
+    text-align: center;
+    color: rgb(24, 18, 18);
+    margin: 0 auto;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li{
+    float: left;
+}
+.footer ul a{
+    text-decoration: none;
+}
+.footer h2{
+    color: orange;
+    padding-top: 60px;
+}
+.footer p{
+    text-align: center;
+    clear: both;
+    padding-top: 60px;
+}
+
+.icon-left{
+    width: 50px;
+    height: 50px;
+    margin-left: 362px;
+}
+.icon-middle{
+    width: 50px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 3px;
+}
+.icon-right{
+    width: 47px;
+    height: 43px;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+
+
+
+.banner-wrap{
+    width: 680px;
+    height: 160px;
+    margin: 50px auto;
+    position: relative;
+}
+
+
+.banner-wrap img{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    font-size: 31px;
+    color: white;
+    top: 22px;
+    left: 38px;
+}
+.button{
+    position: absolute;
+    top: 67px;
+    left: 493px;
+    background-color: rgb(248, 230, 227);
+    padding: 14px 36px;
+    display: block;
+    border-radius: 10px;
+}
+.button a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: rgb(10, 9, 9);
+    color: orange;
+}
+
+
+
+
